@@ -7,7 +7,6 @@ from bson.json_util import dumps
 from flask_bcrypt import Bcrypt
 import jwt
 
-
 app = Flask(__name__)  
 bcrypt = Bcrypt(app) 
 CORS(app)    
